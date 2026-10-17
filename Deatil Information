@@ -1,0 +1,11 @@
+ Agriculture faces a major challenge due to weed infestation, which significantly reduces crop yield by competing with crops for nutrients, water, and sunlight. Traditional weed control methods such as manual weeding and chemical herbicides are labor-intensive, costly, environmentally harmful, and can pose health risks to farmers.
+ This project presents the design and implementation of  Raspberry pi 4 based autonomous vehicle that detects weeds and eliminates them using a rotating Cutter mechanism, without the use of harmful chemicals.
+The system autonomously navigates through the field, identifies weeds using sensors/camera logic, and activates a laser to destroy weeds precisely, ensuring eco-friendly, safe, and efficient weed control.
+The system uses a Raspberry Pi 4 Model B as the high-level processing unit and an as the real-time control unit. 
+The Raspberry Pi 4 captures images from a camera module and processes them to detect weeds using image processing techniques.
+Once a weed is identified, the Raspberry Pi sends a control signal to 
+The  PI 4 then controls the vehicle movement through a motor driver (L298N/L293D) connected to DC motors.
+When the vehicle is positioned over the weed, the PI 4 activates the laser module using a relay or transistor circuit. 
+The laser emits high-intensity heat to destroy the weed stem without using chemical herbicides. 
+After a preset time, the laser is turned off and the PI 4 commands the motors to move the vehicle forward. 
+This process repeats continuously for autonomous and precise weed control.
