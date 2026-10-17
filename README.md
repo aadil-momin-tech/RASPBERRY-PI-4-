@@ -1,2 +1,2 @@
 # RASPBERRY-PI-4-
-Automatic Weed Detector &amp; Cutter Vehicle
+Automatic Weed Detector &amp; Cutter Vehicle (Smart Agrobot)
